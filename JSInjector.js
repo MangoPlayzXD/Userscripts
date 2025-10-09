@@ -17,8 +17,8 @@
 
     //config
     const TOGGLE_KEYBIND = {
-        shiftKey: true,
-        key: 's',
+        ctrlKey: true,
+        shiftkey: true,
         key: 'j'
     };
 
