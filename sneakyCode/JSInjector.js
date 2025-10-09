@@ -1,7 +1,7 @@
  const TOGGLE_KEYBIND = {
         ctrlKey: true,
         shiftKey: true,
-        key: '.'
+        key: 'j'
     };
 
 
