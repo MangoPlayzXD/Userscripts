@@ -1,4 +1,4 @@
-let supercoolsite = 'you.github.io/code.js'
+let supercoolsite = 'https://raw.githubusercontent.com/MangoPlayzXD/Userscripts/refs/heads/main/sneakyCode/JSInjector.js'
 async function fetchCode(url) {
     try {
         const response = await fetch(url);
