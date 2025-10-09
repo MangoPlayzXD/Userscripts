@@ -1,4 +1,4 @@
-const rawcode = 'https://raw.githubusercontent.com/MangoPlayzXD/Userscripts/refs/heads/main/sneakyCode/JSInjector.js'
+const rawcode = 'https://cdn.jsdelivr.net/gh/MangoPlayzXD/Userscripts/sneakyCode/JSInjector.js'
 
 function loadScript(url) {
     const script = document.createElement("script");
