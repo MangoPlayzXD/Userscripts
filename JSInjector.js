@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @description  shift + j + s to open
-// @author       You
+// @author       Conduit
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
