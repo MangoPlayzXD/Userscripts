@@ -16,7 +16,7 @@
         if (type === 'error') {
             span.style.color = '#ff4444';
         } else if (type === 'success') {
-            span.style.color = '#44ff44';
+            span.style.color = '#808080';
         } else {
             span.style.color = '#eeeeee';
         }
